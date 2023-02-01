@@ -1,0 +1,115 @@
+@font-face {
+    src: url(../fonts/Outfit-Bold.ttf);
+    font-family: OutfitBold;
+}
+
+@font-face {
+    src: url(../fonts/Outfit-Regular.ttf);
+    font-family: Outfit;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#Title_QR_code {
+    font-family: OutfitBold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-top: 3%;
+    color: hsl(218, 44%, 22%);
+}
+
+#Text_QR_code {
+    font-family: Outfit;
+    text-align: center;
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+    margin-left: 11%;
+    margin-right: 11%;
+    padding-bottom: 11%;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 20%;
+    border-radius: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+#qr-code {
+    display: block;
+    width: 90%;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media (max-width: 375px) {
+	.container {
+        background-color: hsl(0, 0%, 100%);
+        width: 88%;
+        border-radius: 4%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 4%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    
+    }
+
+    #Title_QR_code {
+        font-family: OutfitBold;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 7%;
+        margin-right: 9%;
+        padding-top: 3%;
+        color: hsl(218, 44%, 22%);
+    }
+    
+    #Text_QR_code {
+        font-family: Outfit;
+        text-align: center;
+        font-size: 14px;
+        color: hsl(220, 15%, 55%);
+        margin-left: 14%;
+        margin-right: 14%;
+        padding-bottom: 7%;
+    }
+}
